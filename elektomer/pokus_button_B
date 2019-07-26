@@ -1,0 +1,210 @@
+#include <application.h>
+
+#define REPORT_INTERVAL (1 * 1 * 1000)
+#define REPORT_INTERVAL_INITIAL (1 * 1 * 1000)
+
+#define BATTERY_UPDATE_INTERVAL (60 * 60 * 1000)
+
+#define TEMPERATURE_PUB_NO_CHANGE_INTEVAL (15 * 60 * 1000)
+#define TEMPERATURE_PUB_VALUE_CHANGE 0.2f
+#define TEMPERATURE_UPDATE_INTERVAL (1 * 1000)
+#define BLACK true
+#define INTERVAL (1 * 5 * 1000)
+
+int i, history[720], consumption, week, month;
+float hour, day;
+uint64_t last_hour;
+typedef struct
+{
+    uint8_t channel;
+    float value;
+    bc_tick_t next_pub;
+
+} event_param_t;
+
+static event_param_t temperature_event_param = { .next_pub = 0 };
+
+static struct
+{
+    bc_led_t led;
+    bc_button_t button;
+    float temperature;
+    bc_tag_temperature_t temperature_tag;
+    bc_button_t button_channel_b;
+    uint32_t channel_b_count;
+} app;
+
+void pulse_counter_event_handler(bc_module_sensor_channel_t channel, bc_pulse_counter_event_t event, void *event_param);
+
+void battery_event_handler(bc_module_battery_event_t event, void *event_param);
+
+void temperature_tag_event_handler(bc_tag_temperature_t *self, bc_tag_temperature_event_t event, void *event_param);
+
+void button_channel_b_event_handler(bc_button_t *self, bc_button_event_t event, void *event_param);
+
+void application_init(void)
+{
+	bc_led_init(&app.led, BC_GPIO_LED, false, false);
+	bc_led_set_mode(&app.led, BC_LED_MODE_OFF);
+
+    bc_module_sensor_set_mode(BC_MODULE_SENSOR_CHANNEL_B, BC_MODULE_SENSOR_MODE_INPUT);
+    bc_module_sensor_set_pull(BC_MODULE_SENSOR_CHANNEL_B, BC_MODULE_SENSOR_PULL_NONE);
+	bc_button_init(&app.button_channel_b, BC_GPIO_P5, BC_GPIO_PULL_UP, 1);
+	bc_button_set_event_handler(&app.button_channel_b, button_channel_b_event_handler, NULL);
+
+    // Initialize LCD
+    bc_module_lcd_init(&_bc_module_lcd_framebuffer);
+
+    // Initialize temperature
+    temperature_event_param.channel = BC_RADIO_PUB_CHANNEL_R1_I2C0_ADDRESS_ALTERNATE;
+    bc_tag_temperature_init(&app.temperature_tag, BC_I2C_I2C0, BC_TAG_TEMPERATURE_I2C_ADDRESS_ALTERNATE);
+    bc_tag_temperature_set_update_interval(&app.temperature_tag, TEMPERATURE_UPDATE_INTERVAL);
+    bc_tag_temperature_set_event_handler(&app.temperature_tag, temperature_tag_event_handler, &temperature_event_param);
+
+    // Initialize battery
+    bc_module_battery_init(BC_MODULE_BATTERY_FORMAT_MINI);
+    bc_module_battery_set_event_handler(battery_event_handler, NULL);
+    bc_module_battery_set_update_interval(BATTERY_UPDATE_INTERVAL);
+
+    bc_radio_init(BC_RADIO_MODE_NODE_SLEEPING);
+
+    bc_scheduler_plan_relative(0, 3000);
+
+    bc_radio_pairing_request("Smart-electricity-meter", VERSION);
+
+    bc_led_pulse(&app.led, 2000);
+}
+
+void application_task(void *param)
+{
+	(void) param;
+    static char str_temperature[10];
+    bc_tick_t cas = bc_tick_get();
+ 
+    if(cas - last_hour > INTERVAL) {
+        last_hour = cas;   
+        for(i=720;i>=0;i--)
+        {
+        history[i+1] = history[i];
+        }
+        history[0] = consumption;
+        app.channel_b_count = 0;
+        }
+        else {
+        history[0] = consumption;
+        }
+    
+    hour = consumption / 1000.0f;
+    day = 0;
+    for (i=0;i<=23;i++)
+    day = (day + history[i]);
+    day = day / 1000.0f;
+    week = 0;
+    for (i=0;i<=167;i++)
+    week = (week + history[i]);
+    //week = week/  1000;
+    month = 0;
+    for (i=0;i<=719;i++)
+    month = (month + history[i]);
+    //month = month / 1000;
+     
+    bc_scheduler_plan_current_relative(REPORT_INTERVAL);
+
+        //setup font
+    bc_module_lcd_set_font(&bc_font_ubuntu_15);
+    //nadpis
+    bc_module_lcd_draw_string(9, 5, "Electricity meter", BLACK);
+    bc_module_lcd_draw_line(5, 21, 120, 21, BLACK);
+
+    //hodina
+    bc_module_lcd_draw_string(5, 26, "Hour", BLACK);
+    snprintf(str_temperature, sizeof(str_temperature), "%04.3f", hour);
+    bc_module_lcd_draw_string(55, 26, str_temperature, BLACK);
+    bc_module_lcd_draw_string(95, 26, "kWh", BLACK);
+
+    //den
+    bc_module_lcd_draw_string(5, 41, "Day", BLACK);
+    snprintf(str_temperature, sizeof(str_temperature), "%04.3f", day);
+    bc_module_lcd_draw_string(55, 41, str_temperature, BLACK);
+    bc_module_lcd_draw_string(95, 41, "kWh", BLACK);
+    //týden
+    bc_module_lcd_draw_string(5, 56, "Week", BLACK);
+    snprintf(str_temperature, sizeof(str_temperature), "%04d", week);
+    bc_module_lcd_draw_string(55, 56, str_temperature, BLACK);
+    bc_module_lcd_draw_string(95, 56, "kWh", BLACK);
+    //měsíc
+    bc_module_lcd_draw_string(5, 71, "Month", BLACK);
+    snprintf(str_temperature, sizeof(str_temperature), "%04d", month);
+    bc_module_lcd_draw_string(55, 71, str_temperature, BLACK);
+    bc_module_lcd_draw_string(95, 71, "kWh", BLACK);
+    //patička
+    bc_module_lcd_draw_line(5, 90, 120, 90, BLACK);
+    bc_module_lcd_draw_string(9, 101, "I <3 BigClown", BLACK);
+    
+    
+    bc_module_lcd_update();
+    bc_system_pll_disable();
+
+}
+
+void pulse_counter_event_handler(bc_module_sensor_channel_t channel, bc_pulse_counter_event_t event, void *event_param)
+{
+    (void) channel;
+    (void) event_param;
+
+    if (event == BC_PULSE_COUNTER_EVENT_OVERFLOW)
+    {
+        // TODO
+    }
+}
+
+void battery_event_handler(bc_module_battery_event_t event, void *event_param)
+{
+    (void) event;
+    (void) event_param;
+
+    float voltage;
+
+    if (bc_module_battery_get_voltage(&voltage))
+    {
+        bc_radio_pub_battery(&voltage);
+    }
+}
+
+void temperature_tag_event_handler(bc_tag_temperature_t *self, bc_tag_temperature_event_t event, void *event_param)
+{
+    float value;
+    event_param_t *param = (event_param_t *)event_param;
+
+    if (event == BC_TAG_TEMPERATURE_EVENT_UPDATE)
+    {
+        if (bc_tag_temperature_get_temperature_celsius(self, &value))
+        {
+            if ((fabs(value - param->value) >= TEMPERATURE_PUB_VALUE_CHANGE) || (param->next_pub < bc_scheduler_get_spin_tick()))
+            {
+                bc_radio_pub_temperature(param->channel, &value);
+
+                param->value = value;
+                param->next_pub = bc_scheduler_get_spin_tick() + TEMPERATURE_PUB_NO_CHANGE_INTEVAL;
+            }
+        }
+    }
+}
+
+void button_channel_b_event_handler(bc_button_t *self, bc_button_event_t event, void *event_param)
+{
+    if (event == BC_BUTTON_EVENT_CLICK)
+    {
+        bc_led_pulse(&app.led, 100);
+
+        app.channel_b_count++;
+        consumption = app.channel_b_count;
+
+        bc_radio_pub_uint32("consumption/event_count", &app.channel_b_count);
+        bc_scheduler_plan_now(0);
+    }
+    else if (event == BC_BUTTON_EVENT_HOLD)
+    {
+        bc_scheduler_plan_now(0);
+    }
+}

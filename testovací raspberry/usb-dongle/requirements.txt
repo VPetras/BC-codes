@@ -1,0 +1,8 @@
+appdirs>=1.0
+argcomplete>=1.0
+pyserial>=3.0
+bcf
+brother_ql
+pillow
+httplib2
+google-api-python-client

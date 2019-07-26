@@ -1,0 +1,1536 @@
+{
+  "bcf-climate-station": {
+    "description": "BigClown Project: Weather Station",
+    "name": "bcf-climate-station",
+    "pushed_at": "2017-06-05T17:15:11Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-climate-station/releases/download/v1.0.1/firmware-142pixel.bin",
+            "id": "4032804",
+            "name": "firmware-142pixel.bin",
+            "size": 56688
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-climate-station/releases/download/v1.0.1/firmware-144pixel.bin",
+            "id": "4032805",
+            "name": "firmware-144pixel.bin",
+            "size": 56688
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-climate-station/releases/download/v1.0.1/firmware-72pixel.bin",
+            "id": "4032803",
+            "name": "firmware-72pixel.bin",
+            "size": 56688
+          }
+        ],
+        "published_at": "2017-06-05T17:19:54Z",
+        "tag_name": "v1.0.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-climate-station/releases/download/v1.0.0/firmware-142pixel.bin",
+            "id": "3560404",
+            "name": "firmware-142pixel.bin",
+            "size": 55808
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-climate-station/releases/download/v1.0.0/firmware-144pixel.bin",
+            "id": "3560405",
+            "name": "firmware-144pixel.bin",
+            "size": 55808
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-climate-station/releases/download/v1.0.0/firmware-72pixel.bin",
+            "id": "3560403",
+            "name": "firmware-72pixel.bin",
+            "size": 55808
+          }
+        ],
+        "published_at": "2017-04-04T05:58:08Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-gateway": {
+    "description": "Firmware for BigClown Gateway",
+    "name": "bcf-gateway",
+    "pushed_at": "2018-01-23T12:38:50Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.8.0/bcf-gateway-core-module-v1.8.0.bin",
+            "id": "5959103",
+            "name": "bcf-gateway-core-module-v1.8.0.bin",
+            "size": 138328
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.8.0/bcf-gateway-usb-dongle-v1.8.0.bin",
+            "id": "5959104",
+            "name": "bcf-gateway-usb-dongle-v1.8.0.bin",
+            "size": 86396
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-01-23T12:38:50Z",
+        "tag_name": "v1.8.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.7.4/bcf-gateway-core-module-v1.7.4.bin",
+            "id": "5655036",
+            "name": "bcf-gateway-core-module-v1.7.4.bin",
+            "size": 137400
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.7.4/bcf-gateway-usb-dongle-v1.7.4.bin",
+            "id": "5655037",
+            "name": "bcf-gateway-usb-dongle-v1.7.4.bin",
+            "size": 85980
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:29:56Z",
+        "tag_name": "v1.7.4"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.7.3/bcf-gateway-core-module-v1.7.3.bin",
+            "id": "5533674",
+            "name": "bcf-gateway-core-module-v1.7.3.bin",
+            "size": 137672
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.7.3/bcf-gateway-usb-dongle-v1.7.3.bin",
+            "id": "5533675",
+            "name": "bcf-gateway-usb-dongle-v1.7.3.bin",
+            "size": 86220
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-05T14:40:10Z",
+        "tag_name": "v1.7.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.7.2/bcf-gateway-core-module-v1.7.2.bin",
+            "id": "5501988",
+            "name": "bcf-gateway-core-module-v1.7.2.bin",
+            "size": 137608
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.7.2/bcf-gateway-usb-dongle-v1.7.2.bin",
+            "id": "5501989",
+            "name": "bcf-gateway-usb-dongle-v1.7.2.bin",
+            "size": 86148
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-01T13:47:39Z",
+        "tag_name": "v1.7.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.5.0/bcf-gateway-core-module-v1.5.0.bin",
+            "id": "4994165",
+            "name": "bcf-gateway-core-module-v1.5.0.bin",
+            "size": 133528
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-10-05T19:04:10Z",
+        "tag_name": "v1.5.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-gateway/releases/download/v1.4.1/bcf-gateway-core-module-v1.4.1.bin",
+            "id": "4897920",
+            "name": "bcf-gateway-core-module-v1.4.1.bin",
+            "size": 133400
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-09-24T09:17:35Z",
+        "tag_name": "v1.4.1"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-generic-node": {
+    "description": "Firmware for BigClown Generic Node",
+    "name": "bcf-generic-node",
+    "pushed_at": "2017-12-18T11:29:45Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.4/bcf-generic-node-battery-mini-v1.7.4.bin",
+            "id": "5655061",
+            "name": "bcf-generic-node-battery-mini-v1.7.4.bin",
+            "size": 89324
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.4/bcf-generic-node-battery-standard-v1.7.4.bin",
+            "id": "5655060",
+            "name": "bcf-generic-node-battery-standard-v1.7.4.bin",
+            "size": 89332
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.4/bcf-generic-node-power-module-rgb150-v1.7.4.bin",
+            "id": "5655065",
+            "name": "bcf-generic-node-power-module-rgb150-v1.7.4.bin",
+            "size": 115788
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.4/bcf-generic-node-power-module-rgb300-v1.7.4.bin",
+            "id": "5655067",
+            "name": "bcf-generic-node-power-module-rgb300-v1.7.4.bin",
+            "size": 115796
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.4/bcf-generic-node-power-module-rgbw144-v1.7.4.bin",
+            "id": "5655062",
+            "name": "bcf-generic-node-power-module-rgbw144-v1.7.4.bin",
+            "size": 115796
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.4/bcf-generic-node-power-module-rgbw72-v1.7.4.bin",
+            "id": "5655064",
+            "name": "bcf-generic-node-power-module-rgbw72-v1.7.4.bin",
+            "size": 115788
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:29:44Z",
+        "tag_name": "v1.7.4"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.3/bcf-generic-node-battery-mini-v1.7.3.bin",
+            "id": "5544181",
+            "name": "bcf-generic-node-battery-mini-v1.7.3.bin",
+            "size": 89388
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.3/bcf-generic-node-battery-standard-v1.7.3.bin",
+            "id": "5544180",
+            "name": "bcf-generic-node-battery-standard-v1.7.3.bin",
+            "size": 89396
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.3/bcf-generic-node-power-module-rgb150-v1.7.3.bin",
+            "id": "5544184",
+            "name": "bcf-generic-node-power-module-rgb150-v1.7.3.bin",
+            "size": 115852
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.3/bcf-generic-node-power-module-rgb300-v1.7.3.bin",
+            "id": "5544185",
+            "name": "bcf-generic-node-power-module-rgb300-v1.7.3.bin",
+            "size": 115860
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.3/bcf-generic-node-power-module-rgbw144-v1.7.3.bin",
+            "id": "5544182",
+            "name": "bcf-generic-node-power-module-rgbw144-v1.7.3.bin",
+            "size": 115860
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.3/bcf-generic-node-power-module-rgbw72-v1.7.3.bin",
+            "id": "5544183",
+            "name": "bcf-generic-node-power-module-rgbw72-v1.7.3.bin",
+            "size": 115852
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-06T14:50:44Z",
+        "tag_name": "v1.7.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.2/bcf-generic-node-battery-mini-v1.7.2.bin",
+            "id": "5501846",
+            "name": "bcf-generic-node-battery-mini-v1.7.2.bin",
+            "size": 89372
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.2/bcf-generic-node-battery-standard-v1.7.2.bin",
+            "id": "5501845",
+            "name": "bcf-generic-node-battery-standard-v1.7.2.bin",
+            "size": 89380
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.2/bcf-generic-node-power-module-rgb150-v1.7.2.bin",
+            "id": "5501849",
+            "name": "bcf-generic-node-power-module-rgb150-v1.7.2.bin",
+            "size": 115860
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.2/bcf-generic-node-power-module-rgb300-v1.7.2.bin",
+            "id": "5501850",
+            "name": "bcf-generic-node-power-module-rgb300-v1.7.2.bin",
+            "size": 115860
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.2/bcf-generic-node-power-module-rgbw144-v1.7.2.bin",
+            "id": "5501847",
+            "name": "bcf-generic-node-power-module-rgbw144-v1.7.2.bin",
+            "size": 115868
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.7.2/bcf-generic-node-power-module-rgbw72-v1.7.2.bin",
+            "id": "5501848",
+            "name": "bcf-generic-node-power-module-rgbw72-v1.7.2.bin",
+            "size": 115860
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-01T13:33:45Z",
+        "tag_name": "v1.7.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.6/bcf-generic-node-battery-mini-v1.5.6.bin",
+            "id": "5133100",
+            "name": "bcf-generic-node-battery-mini-v1.5.6.bin",
+            "size": 87964
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.6/bcf-generic-node-battery-standard-v1.5.6.bin",
+            "id": "5133099",
+            "name": "bcf-generic-node-battery-standard-v1.5.6.bin",
+            "size": 87964
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.6/bcf-generic-node-power-module-rgb150-v1.5.6.bin",
+            "id": "5133103",
+            "name": "bcf-generic-node-power-module-rgb150-v1.5.6.bin",
+            "size": 114468
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.6/bcf-generic-node-power-module-rgb300-v1.5.6.bin",
+            "id": "5133104",
+            "name": "bcf-generic-node-power-module-rgb300-v1.5.6.bin",
+            "size": 114468
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.6/bcf-generic-node-power-module-rgbw144-v1.5.6.bin",
+            "id": "5133101",
+            "name": "bcf-generic-node-power-module-rgbw144-v1.5.6.bin",
+            "size": 114468
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.6/bcf-generic-node-power-module-rgbw72-v1.5.6.bin",
+            "id": "5133102",
+            "name": "bcf-generic-node-power-module-rgbw72-v1.5.6.bin",
+            "size": 114468
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-10-22T14:01:12Z",
+        "tag_name": "v1.5.6"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.5/bcf-generic-node-battery-mini-v1.5.5.bin",
+            "id": "5123167",
+            "name": "bcf-generic-node-battery-mini-v1.5.5.bin",
+            "size": 87708
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.5/bcf-generic-node-battery-standard-v1.5.5.bin",
+            "id": "5123166",
+            "name": "bcf-generic-node-battery-standard-v1.5.5.bin",
+            "size": 87716
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.5/bcf-generic-node-power-module-rgb150-v1.5.5.bin",
+            "id": "5123171",
+            "name": "bcf-generic-node-power-module-rgb150-v1.5.5.bin",
+            "size": 114420
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.5/bcf-generic-node-power-module-rgb300-v1.5.5.bin",
+            "id": "5123172",
+            "name": "bcf-generic-node-power-module-rgb300-v1.5.5.bin",
+            "size": 114420
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.5/bcf-generic-node-power-module-rgbw144-v1.5.5.bin",
+            "id": "5123168",
+            "name": "bcf-generic-node-power-module-rgbw144-v1.5.5.bin",
+            "size": 114420
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.5/bcf-generic-node-power-module-rgbw72-v1.5.5.bin",
+            "id": "5123169",
+            "name": "bcf-generic-node-power-module-rgbw72-v1.5.5.bin",
+            "size": 114420
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-10-20T18:37:33Z",
+        "tag_name": "v1.5.5"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.0/bcf-generic-node-battery-mini-v1.5.0.bin",
+            "id": "4994291",
+            "name": "bcf-generic-node-battery-mini-v1.5.0.bin",
+            "size": 87236
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.0/bcf-generic-node-battery-standard-v1.5.0.bin",
+            "id": "4994290",
+            "name": "bcf-generic-node-battery-standard-v1.5.0.bin",
+            "size": 87236
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.0/bcf-generic-node-power-module-rgb150-v1.5.0.bin",
+            "id": "4994294",
+            "name": "bcf-generic-node-power-module-rgb150-v1.5.0.bin",
+            "size": 113748
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.0/bcf-generic-node-power-module-rgb300-v1.5.0.bin",
+            "id": "4994295",
+            "name": "bcf-generic-node-power-module-rgb300-v1.5.0.bin",
+            "size": 113748
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.0/bcf-generic-node-power-module-rgbw144-v1.5.0.bin",
+            "id": "4994292",
+            "name": "bcf-generic-node-power-module-rgbw144-v1.5.0.bin",
+            "size": 113748
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-generic-node/releases/download/v1.5.0/bcf-generic-node-power-module-rgbw72-v1.5.0.bin",
+            "id": "4994293",
+            "name": "bcf-generic-node-power-module-rgbw72-v1.5.0.bin",
+            "size": 113748
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-10-05T19:21:39Z",
+        "tag_name": "v1.5.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-push-button": {
+    "description": null,
+    "name": "bcf-kit-push-button",
+    "pushed_at": "2017-10-23T09:50:24Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-push-button/releases/download/v0.1.0/bcf-kit-push-button-v0.1.0.bin",
+            "id": "5138747",
+            "name": "bcf-kit-push-button-v0.1.0.bin",
+            "size": 41480
+          }
+        ],
+        "published_at": "2017-10-23T09:50:24Z",
+        "tag_name": "v0.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-sigfox-climate-monitor": {
+    "description": "Firmware for BigClown Sigfox Climate Monitor Kit",
+    "name": "bcf-kit-sigfox-climate-monitor",
+    "pushed_at": "2017-11-07T08:19:25Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-climate-monitor/releases/download/v1.0.1/firmware.bin",
+            "id": "3979190",
+            "name": "firmware.bin",
+            "size": 37360
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-05-28T22:08:02Z",
+        "tag_name": "v1.0.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-climate-monitor/releases/download/v1.0.0/firmware.bin",
+            "id": "3872698",
+            "name": "firmware.bin",
+            "size": 32496
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-05-14T21:53:47Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-sigfox-co2-monitor": {
+    "description": "Firmware for BigClown Sigfox CO2 Monitor Kit",
+    "name": "bcf-kit-sigfox-co2-monitor",
+    "pushed_at": "2018-02-05T16:58:23Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-co2-monitor/releases/download/v1.1.0/bcf-kit-sigfox-co2-monitor-v1.1.0.bin",
+            "id": "6106841",
+            "name": "bcf-kit-sigfox-co2-monitor-v1.1.0.bin",
+            "size": 43408
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-02-05T16:49:52Z",
+        "tag_name": "v1.1.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-co2-monitor/releases/download/v1.0.0/bcf-kit-sigfox-co2-monitor-v1.0.0.bin",
+            "id": "3933099",
+            "name": "bcf-kit-sigfox-co2-monitor-v1.0.0.bin",
+            "size": 37748
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-05-22T16:00:29Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-sigfox-motion-detector": {
+    "description": "Firmware for BigClown Sigfox Motion Detector Kit",
+    "name": "bcf-kit-sigfox-motion-detector",
+    "pushed_at": "2017-11-07T08:20:37Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-motion-detector/releases/download/v1.0.1/firmware.bin",
+            "id": "3992133",
+            "name": "firmware.bin",
+            "size": 23668
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-05-30T18:18:26Z",
+        "tag_name": "v1.0.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-motion-detector/releases/download/v1.0.0/firmware.bin",
+            "id": "3979123",
+            "name": "firmware.bin",
+            "size": 23568
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-05-28T21:36:17Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-sigfox-pulse-counter": {
+    "description": "Firmware for BigClown Sigfox Pulse Counter Kit",
+    "name": "bcf-kit-sigfox-pulse-counter",
+    "pushed_at": "2017-11-07T08:16:44Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-pulse-counter/releases/download/v1.1.0/firmware.bin",
+            "id": "4464101",
+            "name": "firmware.bin",
+            "size": 32396
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-07-31T08:13:56Z",
+        "tag_name": "v1.1.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-pulse-counter/releases/download/v0.0.0-beta/firmware.bin",
+            "id": "4319235",
+            "name": "firmware.bin",
+            "size": 31760
+          }
+        ],
+        "prerelease": true,
+        "published_at": "2017-07-13T12:34:08Z",
+        "tag_name": "v0.0.0-beta"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-sigfox-push-button": {
+    "description": "Firmware for BigClown Sigfox Push Button Kit",
+    "name": "bcf-kit-sigfox-push-button",
+    "pushed_at": "2017-11-07T07:59:39Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-sigfox-push-button/releases/download/v1.0.0/bcf-sigfox-button-v1.0.0.bin",
+            "id": "4964140",
+            "name": "bcf-sigfox-button-v1.0.0.bin",
+            "size": 21632
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-10-02T15:23:42Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-thermostat-lcd": {
+    "description": null,
+    "name": "bcf-kit-thermostat-lcd",
+    "pushed_at": "2017-10-23T12:50:15Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-thermostat-lcd/releases/download/v0.2.0/bcf-kit-thermostat-lcd-v0.2.0.bin",
+            "id": "5139901",
+            "name": "bcf-kit-thermostat-lcd-v0.2.0.bin",
+            "size": 84744
+          }
+        ],
+        "published_at": "2017-10-23T12:49:53Z",
+        "tag_name": "v0.2.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-climate-monitor": {
+    "description": "Firmware for BigClown Wireless Climate Monitor Kit",
+    "name": "bcf-kit-wireless-climate-monitor",
+    "pushed_at": "2018-01-17T14:19:06Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-climate-monitor/releases/download/v1.1.3/bcf-kit-wireless-climate-monitor-v1.1.3.bin",
+            "id": "5900392",
+            "name": "bcf-kit-wireless-climate-monitor-v1.1.3.bin",
+            "size": 45948
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-01-17T14:19:06Z",
+        "tag_name": "v1.1.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-climate-monitor/releases/download/v1.1.2/bcf-kit-wireless-climate-monitor-v1.1.2.bin",
+            "id": "5654995",
+            "name": "bcf-kit-wireless-climate-monitor-v1.1.2.bin",
+            "size": 45916
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:28:12Z",
+        "tag_name": "v1.1.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-climate-monitor/releases/download/v1.1.1/bcf-kit-wireless-climate-monitor-v1.1.1.bin",
+            "id": "5526836",
+            "name": "bcf-kit-wireless-climate-monitor-v1.1.1.bin",
+            "size": 45852
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-04T21:11:53Z",
+        "tag_name": "v1.1.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-climate-monitor/releases/download/v1.1.0/bcf-kit-wireless-climate-monitor-v1.1.0.bin",
+            "id": "5455832",
+            "name": "bcf-kit-wireless-climate-monitor-v1.1.0.bin",
+            "size": 45868
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-27T13:15:24Z",
+        "tag_name": "v1.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-co2-monitor": {
+    "description": "Firmware for BigClown Wireless CO2 monitor Kit",
+    "name": "bcf-kit-wireless-co2-monitor",
+    "pushed_at": "2017-12-18T11:26:40Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-co2-monitor/releases/download/v1.1.2/bcf-kit-wireless-co2-monitor-v1.1.2.bin",
+            "id": "5654992",
+            "name": "bcf-kit-wireless-co2-monitor-v1.1.2.bin",
+            "size": 50324
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:26:40Z",
+        "tag_name": "v1.1.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-co2-monitor/releases/download/v1.1.1/bcf-kit-wireless-co2-monitor-v1.1.1.bin",
+            "id": "5526846",
+            "name": "bcf-kit-wireless-co2-monitor-v1.1.1.bin",
+            "size": 50280
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-04T21:12:37Z",
+        "tag_name": "v1.1.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-co2-monitor/releases/download/v1.1.0/bcf-kit-wireless-co2-monitor-v1.1.0.bin",
+            "id": "5455800",
+            "name": "bcf-kit-wireless-co2-monitor-v1.1.0.bin",
+            "size": 50296
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-27T13:15:36Z",
+        "tag_name": "v1.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-controller": {
+    "description": "Firmware for BigClown Controller Kit",
+    "name": "bcf-kit-wireless-controller",
+    "pushed_at": "2017-11-13T08:00:07Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-controller/releases/download/v0.1.0/bcf-kit-wireless-controller-v0.1.0.bin",
+            "id": "5322280",
+            "name": "bcf-kit-wireless-controller-v0.1.0.bin",
+            "size": 41680
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-13T08:00:07Z",
+        "tag_name": "v0.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-flood-detector": {
+    "description": "Firmware for BigClown Wireless Flood Detector Kit",
+    "name": "bcf-kit-wireless-flood-detector",
+    "pushed_at": "2018-01-17T14:18:50Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-flood-detector/releases/download/v1.1.3/bcf-kit-wireless-flood-detector-v1.1.3.bin",
+            "id": "5900360",
+            "name": "bcf-kit-wireless-flood-detector-v1.1.3.bin",
+            "size": 43804
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-01-17T14:18:50Z",
+        "tag_name": "v1.1.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-flood-detector/releases/download/v1.1.2/bcf-kit-wireless-flood-detector-v1.1.2.bin",
+            "id": "5655028",
+            "name": "bcf-kit-wireless-flood-detector-v1.1.2.bin",
+            "size": 43772
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:29:14Z",
+        "tag_name": "v1.1.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-flood-detector/releases/download/v1.1.1/bcf-kit-wireless-flood-detector-v1.1.1.bin",
+            "id": "5526848",
+            "name": "bcf-kit-wireless-flood-detector-v1.1.1.bin",
+            "size": 43712
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-04T21:12:52Z",
+        "tag_name": "v1.1.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-flood-detector/releases/download/v1.1.0/bcf-kit-wireless-flood-detector-v1.1.0.bin",
+            "id": "5455823",
+            "name": "bcf-kit-wireless-flood-detector-v1.1.0.bin",
+            "size": 43728
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-27T13:16:13Z",
+        "tag_name": "v1.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-lcd-thermostat": {
+    "description": "Firmware for BigClown Wireless LCD Thermostat Kit",
+    "name": "bcf-kit-wireless-lcd-thermostat",
+    "pushed_at": "2018-01-17T14:17:06Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-lcd-thermostat/releases/download/v1.2.0/bcf-kit-wireless-lcd-thermostat-v1.2.0.bin",
+            "id": "5900273",
+            "name": "bcf-kit-wireless-lcd-thermostat-v1.2.0.bin",
+            "size": 88504
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-01-17T14:17:06Z",
+        "tag_name": "v1.2.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-lcd-thermostat/releases/download/v1.1.2/bcf-kit-wireless-lcd-thermostat-v1.1.2.bin",
+            "id": "5654990",
+            "name": "bcf-kit-wireless-lcd-thermostat-v1.1.2.bin",
+            "size": 87416
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:27:02Z",
+        "tag_name": "v1.1.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-lcd-thermostat/releases/download/v1.1.1/bcf-kit-wireless-lcd-thermostat-v1.1.1.bin",
+            "id": "5526866",
+            "name": "bcf-kit-wireless-lcd-thermostat-v1.1.1.bin",
+            "size": 87400
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-04T21:13:07Z",
+        "tag_name": "v1.1.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-lcd-thermostat/releases/download/v1.1.0/bcf-kit-wireless-lcd-thermostat-v1.1.0.bin",
+            "id": "5456254",
+            "name": "bcf-kit-wireless-lcd-thermostat-v1.1.0.bin",
+            "size": 87016
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-27T13:55:21Z",
+        "tag_name": "v1.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-motion-detector": {
+    "description": "Firmware for BigClown Wireless Motion Detector Kit",
+    "name": "bcf-kit-wireless-motion-detector",
+    "pushed_at": "2018-01-17T14:18:41Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-motion-detector/releases/download/v1.1.3/bcf-kit-wireless-motion-detector-v1.1.3.bin",
+            "id": "5900339",
+            "name": "bcf-kit-wireless-motion-detector-v1.1.3.bin",
+            "size": 43944
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-01-17T14:18:40Z",
+        "tag_name": "v1.1.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-motion-detector/releases/download/v1.1.2/bcf-kit-wireless-motion-detector-v1.1.2.bin",
+            "id": "5654991",
+            "name": "bcf-kit-wireless-motion-detector-v1.1.2.bin",
+            "size": 43912
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:26:14Z",
+        "tag_name": "v1.1.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-motion-detector/releases/download/v1.1.1/bcf-kit-wireless-motion-detector-v1.1.1.bin",
+            "id": "5526875",
+            "name": "bcf-kit-wireless-motion-detector-v1.1.1.bin",
+            "size": 43848
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-04T21:13:27Z",
+        "tag_name": "v1.1.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-motion-detector/releases/download/v1.1.0/bcf-kit-wireless-motion-detector-v1.1.0.bin",
+            "id": "5455842",
+            "name": "bcf-kit-wireless-motion-detector-v1.1.0.bin",
+            "size": 43864
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-27T13:16:26Z",
+        "tag_name": "v1.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-power-controller": {
+    "description": "Firmware for BigClown Controller Kit",
+    "name": "bcf-kit-wireless-power-controller",
+    "pushed_at": "2017-12-18T11:28:42Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-power-controller/releases/download/v1.2.1/bcf-kit-wireless-power-controller-rgb150-v1.2.1.bin",
+            "id": "5655031",
+            "name": "bcf-kit-wireless-power-controller-rgb150-v1.2.1.bin",
+            "size": 48172
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-power-controller/releases/download/v1.2.1/bcf-kit-wireless-power-controller-rgbw144-v1.2.1.bin",
+            "id": "5655029",
+            "name": "bcf-kit-wireless-power-controller-rgbw144-v1.2.1.bin",
+            "size": 48172
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-power-controller/releases/download/v1.2.1/bcf-kit-wireless-power-controller-rgbw72-v1.2.1.bin",
+            "id": "5655030",
+            "name": "bcf-kit-wireless-power-controller-rgbw72-v1.2.1.bin",
+            "size": 48172
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:28:42Z",
+        "tag_name": "v1.2.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-power-controller/releases/download/v1.2.0/bcf-kit-wireless-power-controller-rgb150-v1.2.0.bin",
+            "id": "5540644",
+            "name": "bcf-kit-wireless-power-controller-rgb150-v1.2.0.bin",
+            "size": 48124
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-power-controller/releases/download/v1.2.0/bcf-kit-wireless-power-controller-rgbw144-v1.2.0.bin",
+            "id": "5540641",
+            "name": "bcf-kit-wireless-power-controller-rgbw144-v1.2.0.bin",
+            "size": 48124
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-power-controller/releases/download/v1.2.0/bcf-kit-wireless-power-controller-rgbw72-v1.2.0.bin",
+            "id": "5540643",
+            "name": "bcf-kit-wireless-power-controller-rgbw72-v1.2.0.bin",
+            "size": 48124
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-06T07:58:38Z",
+        "tag_name": "v1.2.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-kit-wireless-push-button": {
+    "description": "Firmware for BigClown Wireless Push Button Kit",
+    "name": "bcf-kit-wireless-push-button",
+    "pushed_at": "2018-01-17T14:18:18Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-push-button/releases/download/v1.1.3/bcf-kit-wireless-push-button-v1.1.3.bin",
+            "id": "5900298",
+            "name": "bcf-kit-wireless-push-button-v1.1.3.bin",
+            "size": 43220
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2018-01-17T14:18:18Z",
+        "tag_name": "v1.1.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-push-button/releases/download/v1.1.2/bcf-kit-wireless-push-button-v1.1.2.bin",
+            "id": "5655020",
+            "name": "bcf-kit-wireless-push-button-v1.1.2.bin",
+            "size": 43188
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-18T11:29:29Z",
+        "tag_name": "v1.1.2"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-push-button/releases/download/v1.1.1/bcf-kit-wireless-push-button-v1.1.1.bin",
+            "id": "5526892",
+            "name": "bcf-kit-wireless-push-button-v1.1.1.bin",
+            "size": 43124
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-12-04T21:13:50Z",
+        "tag_name": "v1.1.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-kit-wireless-push-button/releases/download/v1.1.0/bcf-kit-wireless-push-button-v1.1.0.bin",
+            "id": "5455788",
+            "name": "bcf-kit-wireless-push-button-v1.1.0.bin",
+            "size": 43140
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-11-27T13:15:09Z",
+        "tag_name": "v1.1.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-lcd-thermostat": {
+    "description": "Firmware for BigClown LCD Thermostat",
+    "name": "bcf-lcd-thermostat",
+    "pushed_at": "2017-10-10T08:09:18Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-lcd-thermostat/releases/download/v1.0.0/bcf-lcd-thermostat-v1.0.0.bin",
+            "id": "5026636",
+            "name": "bcf-lcd-thermostat-v1.0.0.bin",
+            "size": 77948
+          }
+        ],
+        "published_at": "2017-10-10T08:07:45Z",
+        "tag_name": "v1.0.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-lcd-thermostat/releases/download/v1.0.0-beta/bcf-lcd-thermostat-v1.0.0-beta.bin",
+            "id": "5026648",
+            "name": "bcf-lcd-thermostat-v1.0.0-beta.bin",
+            "size": 77948
+          },
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-lcd-thermostat/releases/download/v1.0.0-beta/firmware.bin",
+            "id": "4134701",
+            "name": "firmware.bin",
+            "size": 74996
+          }
+        ],
+        "published_at": "2017-06-19T20:03:06Z",
+        "tag_name": "v1.0.0-beta"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-ping-pong-table": {
+    "description": "Firmware for BigClown Ping Pong Table",
+    "name": "bcf-ping-pong-table",
+    "pushed_at": "2017-04-29T12:21:39Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-ping-pong-table/releases/download/v1.0.0/firmware.bin",
+            "id": "3765463",
+            "name": "firmware.bin",
+            "size": 24180
+          }
+        ],
+        "published_at": "2017-04-29T12:23:18Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-sigfox-button": {
+    "description": null,
+    "name": "bcf-sigfox-button",
+    "pushed_at": "2017-10-02T15:23:42Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-button/releases/download/v1.0.0/bcf-sigfox-button-v1.0.0.bin",
+            "id": "4964140",
+            "name": "bcf-sigfox-button-v1.0.0.bin",
+            "size": 21632
+          }
+        ],
+        "published_at": "2017-10-02T15:23:42Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-sigfox-climate-monitor": {
+    "description": "Firmware for BigClown Sigfox Climate Monitor",
+    "name": "bcf-sigfox-climate-monitor",
+    "pushed_at": "2017-06-20T09:35:02Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-climate-monitor/releases/download/v1.0.1/firmware.bin",
+            "id": "3979190",
+            "name": "firmware.bin",
+            "size": 37360
+          }
+        ],
+        "published_at": "2017-05-28T22:08:02Z",
+        "tag_name": "v1.0.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-climate-monitor/releases/download/v1.0.0/firmware.bin",
+            "id": "3872698",
+            "name": "firmware.bin",
+            "size": 32496
+          }
+        ],
+        "published_at": "2017-05-14T21:53:47Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-sigfox-co2-monitor": {
+    "description": "Firmware for BigClown Sigfox CO2 Monitor",
+    "name": "bcf-sigfox-co2-monitor",
+    "pushed_at": "2017-06-20T09:32:11Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-co2-monitor/releases/download/v1.0.0/firmware.bin",
+            "id": "3933099",
+            "name": "firmware.bin",
+            "size": 37748
+          }
+        ],
+        "published_at": "2017-05-22T16:00:29Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-sigfox-motion-detector": {
+    "description": "Firmware for BigClown Sigfox Motion Detector",
+    "name": "bcf-sigfox-motion-detector",
+    "pushed_at": "2017-06-20T09:29:26Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-motion-detector/releases/download/v1.0.1/firmware.bin",
+            "id": "3992133",
+            "name": "firmware.bin",
+            "size": 23668
+          }
+        ],
+        "published_at": "2017-05-30T18:18:26Z",
+        "tag_name": "v1.0.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-motion-detector/releases/download/v1.0.0/firmware.bin",
+            "id": "3979123",
+            "name": "firmware.bin",
+            "size": 23568
+          }
+        ],
+        "published_at": "2017-05-28T21:36:17Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-sigfox-pulse-counter": {
+    "description": "Firmware for BigClown Sigfox Pulse Counter",
+    "name": "bcf-sigfox-pulse-counter",
+    "pushed_at": "2017-07-31T08:44:46Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-pulse-counter/releases/download/v1.1.0/firmware.bin",
+            "id": "4464101",
+            "name": "firmware.bin",
+            "size": 32396
+          }
+        ],
+        "published_at": "2017-07-31T08:13:56Z",
+        "tag_name": "v1.1.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-sigfox-pulse-counter/releases/download/v0.0.0-beta/firmware.bin",
+            "id": "4319235",
+            "name": "firmware.bin",
+            "size": 31760
+          }
+        ],
+        "published_at": "2017-07-13T12:34:08Z",
+        "tag_name": "v0.0.0-beta"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-skeleton": {
+    "description": "BigClown Firmware Skeleton (Empty Application)",
+    "name": "bcf-skeleton",
+    "pushed_at": "2017-11-07T08:28:27Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-skeleton/releases/download/v1.0.0/firmware.bin",
+            "id": "3766019",
+            "name": "firmware.bin",
+            "size": 15088
+          }
+        ],
+        "prerelease": false,
+        "published_at": "2017-04-29T15:57:35Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-skeleton-core-module": {
+    "description": "Firmware Skeleton for BigClown Core Module",
+    "name": "bcf-skeleton-core-module",
+    "pushed_at": "2017-08-03T14:51:42Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-skeleton-core-module/releases/download/v1.0.0/firmware.bin",
+            "id": "3766019",
+            "name": "firmware.bin",
+            "size": 15088
+          }
+        ],
+        "published_at": "2017-04-29T15:57:35Z",
+        "tag_name": "v1.0.0"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-usb-dongle": {
+    "description": "Firmware for BigClown USB Dongle",
+    "name": "bcf-usb-dongle",
+    "pushed_at": "2017-10-22T19:16:54Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-dongle/releases/download/v1.5.5/bcf-usb-dongle-v1.5.5.bin",
+            "id": "5122316",
+            "name": "bcf-usb-dongle-v1.5.5.bin",
+            "size": 82544
+          }
+        ],
+        "published_at": "2017-10-20T16:53:12Z",
+        "tag_name": "v1.5.5"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-dongle/releases/download/v1.5.3/bcf-usb-dongle-v1.5.3.bin",
+            "id": "5058529",
+            "name": "bcf-usb-dongle-v1.5.3.bin",
+            "size": 82352
+          }
+        ],
+        "published_at": "2017-10-13T10:23:20Z",
+        "tag_name": "v1.5.3"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-dongle/releases/download/v1.5.0/firmware.bin",
+            "id": "4994126",
+            "name": "firmware.bin",
+            "size": 82200
+          }
+        ],
+        "published_at": "2017-10-05T18:54:59Z",
+        "tag_name": "v1.5.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-dongle/releases/download/v1.4.1/firmware.bin",
+            "id": "4897918",
+            "name": "firmware.bin",
+            "size": 82080
+          }
+        ],
+        "published_at": "2017-09-24T09:17:18Z",
+        "tag_name": "v1.4.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-dongle/releases/download/v1.4.0/firmware.bin",
+            "id": "4808437",
+            "name": "firmware.bin",
+            "size": 81960
+          }
+        ],
+        "published_at": "2017-09-12T21:19:24Z",
+        "tag_name": "v1.4.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-dongle/releases/download/v0.0.0-test/firmware.bin",
+            "id": "4266192",
+            "name": "firmware.bin",
+            "size": 13492
+          }
+        ],
+        "published_at": "2017-07-06T12:08:19Z",
+        "tag_name": "v0.0.0-test"
+      }
+    ],
+    "tag": null
+  },
+  "bcf-usb-gateway": {
+    "description": "Firmware for BigClown USB Gateway",
+    "name": "bcf-usb-gateway",
+    "pushed_at": "2017-10-05T19:04:10Z",
+    "releases": [
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.5.0/firmware.bin",
+            "id": "4994165",
+            "name": "firmware.bin",
+            "size": 133528
+          }
+        ],
+        "published_at": "2017-10-05T19:04:10Z",
+        "tag_name": "v1.5.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.4.1/firmware.bin",
+            "id": "4897920",
+            "name": "firmware.bin",
+            "size": 133400
+          }
+        ],
+        "published_at": "2017-09-24T09:17:35Z",
+        "tag_name": "v1.4.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.4.0/firmware.bin",
+            "id": "4808436",
+            "name": "firmware.bin",
+            "size": 133240
+          }
+        ],
+        "published_at": "2017-09-12T21:19:07Z",
+        "tag_name": "v1.4.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.3.0/firmware.bin",
+            "id": "4688731",
+            "name": "firmware.bin",
+            "size": 132328
+          }
+        ],
+        "published_at": "2017-08-28T21:33:46Z",
+        "tag_name": "v1.3.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.2.1/firmware.bin",
+            "id": "4413175",
+            "name": "firmware.bin",
+            "size": 129136
+          }
+        ],
+        "published_at": "2017-07-25T18:18:34Z",
+        "tag_name": "v1.2.1"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.2.0/firmware.bin",
+            "id": "4383222",
+            "name": "firmware.bin",
+            "size": 129112
+          }
+        ],
+        "published_at": "2017-07-21T14:24:46Z",
+        "tag_name": "v1.2.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v1.1.0/firmware.bin",
+            "id": "4376950",
+            "name": "firmware.bin",
+            "size": 128904
+          }
+        ],
+        "published_at": "2017-07-20T20:56:33Z",
+        "tag_name": "v1.1.0"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v0.0.0-beta.9/firmware.bin",
+            "id": "4294358",
+            "name": "firmware.bin",
+            "size": 127584
+          }
+        ],
+        "published_at": "2017-07-10T14:47:42Z",
+        "tag_name": "v0.0.0-beta.9"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v0.0.0-beta.7/firmware.bin",
+            "id": "4134814",
+            "name": "firmware.bin",
+            "size": 127216
+          }
+        ],
+        "published_at": "2017-06-19T20:18:02Z",
+        "tag_name": "v0.0.0-beta.7"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v0.0.0-beta.6/firmware.bin",
+            "id": "4109612",
+            "name": "firmware.bin",
+            "size": 126468
+          }
+        ],
+        "published_at": "2017-06-15T14:29:10Z",
+        "tag_name": "v0.0.0-beta.6"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v0.0.0-beta.5/firmware.bin",
+            "id": "4097065",
+            "name": "firmware.bin",
+            "size": 125428
+          }
+        ],
+        "published_at": "2017-06-14T08:12:09Z",
+        "tag_name": "v0.0.0-beta.5"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v0.0.0-beta.4/firmware.bin",
+            "id": "4083092",
+            "name": "firmware.bin",
+            "size": 125924
+          }
+        ],
+        "published_at": "2017-06-12T17:29:18Z",
+        "tag_name": "v0.0.0-beta.4"
+      },
+      {
+        "firmwares": [
+          {
+            "download_url": "https://github.com/bigclownlabs/bcf-usb-gateway/releases/download/v0.0.0-beta.3/firmware.bin",
+            "id": "4071636",
+            "name": "firmware.bin",
+            "size": 124348
+          }
+        ],
+        "published_at": "2017-06-10T10:48:49Z",
+        "tag_name": "v0.0.0-beta.3"
+      }
+    ],
+    "tag": null
+  }
+}

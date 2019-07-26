@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rsync -av ../bch-tester-sensation/ pi@192.168.1.138:/home/pi/tester-sensation/
+
+rsync -av ../bch-tester-sensation/ pi@10.0.0.182:/home/pi/tester-sensation/
